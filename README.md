@@ -9,7 +9,7 @@
 ## [2. 实战][2.1]
 - [参数解析][2.2]
 ```
-gcf = gcForest(shape_1X=None,  # 单个样本元素的形状[n_lines，n_cols]。 调用mg_scanning时需要！对于序列数据，可以给出单个int
+gcf = gcForest(shape_1X=None,  # 单个样本元素的形状[n_lines，n_cols](图像形状), 调用mg_scanning时需要！对于序列数据，可以给出单个int
                n_mgsRFtree=30,
                window=None,  # 滑动窗口的大小, 类比CNN
                stride=1,  # 滑动步长
