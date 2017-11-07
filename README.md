@@ -9,8 +9,8 @@
 ## [2. 实战][2.1]
 - [参数解析][2.2]
 ```
-gcf = gcForest(shape_1X=None,  # 单个样本元素的形状shape(图像形状), 调用mg_scanning时需要！对于序列数据，可以给出单个int
-               n_mgsRFtree=30,
+gcf = gcForest(shape_1X=None,  # 单个样本元素的形状shape(图像形状), 对于序列数据，可以给出单个int【iris就是shape_1X=4】
+               n_mgsRFtree=30,
                window=None,  # 滑动窗口的大小, 类比CNN
                stride=1,  # 滑动步长
                cascade_test_size=0.2,
