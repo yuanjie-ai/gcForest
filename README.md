@@ -7,6 +7,22 @@
 ---
 ## [2. 实战][2.1]
 - [参数解析][2.2]
+```
+gcf = gcForest(shape_1X=None,  # 单个样本元素的形状[n_lines，n_cols]。 调用mg_scanning时需要！对于序列数据，可以给出单个int
+               n_mgsRFtree=30,
+               window=None,  # 滑动窗口的大小, 类比CNN
+               stride=1,  # 滑动步长
+               cascade_test_size=0.2,
+               n_cascadeRF=2,
+               n_cascadeRFtree=101,
+               cascade_layer=np.inf,
+               min_samples_mgs=0.1,
+               min_samples_cascade=0.05,
+               tolerance=0.0,  # 提升的精度小于tolerance时，就停止迭代
+               n_jobs=1)
+
+
+```
 - [算法预测股指期货涨跌][2.3]
 
 
