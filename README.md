@@ -21,13 +21,8 @@ gcf = gcForest(shape_1X=None,  # 单个样本元素的形状[n_lines，n_cols]�
                min_samples_cascade=0.05,
                tolerance=0.0,  # 提升的精度小于tolerance时，就停止迭代
                n_jobs=1)
-
-
 ```
 - [算法预测股指期货涨跌][2.3]
-
-
-
 ---
 [1]: http://blog.csdn.net/xbinworld/article/details/60466552
 [1.1]: https://www.qcloud.com/community/article/536731001491381531?!preview
